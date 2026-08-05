@@ -9,13 +9,13 @@ Kad nospiež spēlēt, atveras tēla veidošanas aina - kurā var tikt veiktas �
 **To-Do List:**
 - [x] Izveidot sākuma ainu
 - [x] Nodrošināta iespēja pārslēgties starp projektā iekļautajām ainām
-- [ ] Pielietojot teksta ievades laukus, iespējams ievadīt tēla vārdu un dzimšanas gadu
+- [x] Pielietojot teksta ievades laukus, iespējams ievadīt tēla vārdu un dzimšanas gadu
 - [ ] Pielietojot izkrītošo sarakstu, iespējams izvēlēties vismaz divus tēlus, kurus iespējams apģērbt
 - [ ] Izveidotas vairākas apģērbu un aprīkojuma kategorijas
 - [ ] Izvēlēto aprīkojumu pēc drag and drop principa ar datorpeles palīdzību ir iespējams pārvietot
 - [ ] Nodrošināti skaņas efekti
 - [ ] Ainā ir ievietots scroll view, kurā lasāms apraksts par projektā iekļautajiem tēliem
 - [ ] Iekļauti divi slider elementi, kur viens maina apģērbjamā tēla garumu, bet otrs platumu
-- [ ] Projekta izstrādes process tiek jēgpilni versionēts ar Git versiju kontroles sistēmu
+- [x] Projekta izstrādes process tiek jēgpilni versionēts ar Git versiju kontroles sistēmu
 
 Dokumenta beigas.
