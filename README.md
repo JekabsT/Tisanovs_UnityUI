@@ -7,8 +7,8 @@ Kad nospiež spēlēt, atveras tēla veidošanas aina - kurā var tikt veiktas �
 ...
 
 **To-Do List:**
-- [ ] Izveidot sākuma ainu
-- [ ] Nodrošināta iespēja pārslēgties starp projektā iekļautajām ainām
+- [x] Izveidot sākuma ainu
+- [x] Nodrošināta iespēja pārslēgties starp projektā iekļautajām ainām
 - [ ] Pielietojot teksta ievades laukus, iespējams ievadīt tēla vārdu un dzimšanas gadu
 - [ ] Pielietojot izkrītošo sarakstu, iespējams izvēlēties vismaz divus tēlus, kurus iespējams apģērbt
 - [ ] Izveidotas vairākas apģērbu un aprīkojuma kategorijas

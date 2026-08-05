@@ -1,16 +1,28 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChangeSceneScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void QuitApplication()
     {
-        
+        if (UnityEditor.EditorApplication.isPlaying) {
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
+        else
+        {
+        Application.Quit();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoadWithDelay(string sceneName)
     {
-        
+        StartCoroutine(LoadSceneAfterDelay(sceneName));
+    }
+
+    private IEnumerator LoadSceneAfterDelay(string sceneName)
+    {
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 }
